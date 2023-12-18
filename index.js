@@ -2,6 +2,8 @@
 	let container = document.querySelector(".container")
 	let items = document.querySelectorAll(".item")
 	let rule = document.querySelector(".rule")
+	let rulesImage = document.querySelector('.rulesImage')
+	let rulesImageCon = document.querySelector('.rulesImageCon')
 	let resultContainer = document.querySelector(".resultContainer")
 let userResult = document.querySelector("#userResult")
 let computerResult = document.querySelector("#computerResult")
@@ -86,4 +88,12 @@ restart.addEventListener("click", () => {
  resultContainer.classList.add("hide")
 verdict.classList.add("hide")
 computerResult.src = " "
+})
+
+//rules
+rule.addEventListener('click', () => {
+ rulesImageCon.classList.remove('hide')
+})
+rulesImage.addEventListener('click', () => {
+ rulesImageCon.classList.add('hide')
 })
