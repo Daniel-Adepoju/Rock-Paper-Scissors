@@ -4,7 +4,7 @@
   }
  
  body {
-	background: rgba(0,07,46,0.837);
+	background: rgba(4, 43, 62, 0.837);
 	font-family:Monospace;	
 		}
 
@@ -203,11 +203,11 @@ right:10px;
 	inset:0;
 	width: 100%;
 	min-height: 100vh;
-	background-color: rgb(54, 53, 53);
+	background: rgba(4, 43, 62, 0.937);
  }
  .rulesImage {
-	width:70%;
-	height: 50%;
+	min-width:50%;
+	min-height: 50%;
 	cursor: pointer;
  }
 
