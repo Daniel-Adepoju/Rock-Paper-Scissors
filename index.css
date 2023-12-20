@@ -34,7 +34,7 @@
 	height: 60px;
 	padding: 20px;
 	border-radius: 50%;
-	border: 8px outset rgb(47,239,234);
+	border: 8px outset rgb(12, 182, 142);
 	animation: 500ms ease-out infinite;
 	cursor: pointer;
 }
@@ -211,7 +211,6 @@ right:10px;
  }
  .rulesImage {
 	min-width:50%;
-	min-height: 50%;
 	cursor: pointer;
  }
 
